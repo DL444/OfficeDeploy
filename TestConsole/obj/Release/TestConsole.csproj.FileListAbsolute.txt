@@ -1,0 +1,11 @@
+C:\Users\DL444\source\repos\OfficeDep\TestConsole\bin\Release\TestConsole.exe.config
+C:\Users\DL444\source\repos\OfficeDep\TestConsole\bin\Release\TestConsole.exe
+C:\Users\DL444\source\repos\OfficeDep\TestConsole\bin\Release\TestConsole.pdb
+C:\Users\DL444\source\repos\OfficeDep\TestConsole\bin\Release\OfficeDep.exe
+C:\Users\DL444\source\repos\OfficeDep\TestConsole\bin\Release\OfficeDep.pdb
+C:\Users\DL444\source\repos\OfficeDep\TestConsole\bin\Release\OfficeDep.exe.config
+C:\Users\DL444\source\repos\OfficeDep\TestConsole\obj\Release\TestConsole.csprojResolveAssemblyReference.cache
+C:\Users\DL444\source\repos\OfficeDep\TestConsole\obj\Release\TestConsole.csproj.CoreCompileInputs.cache
+C:\Users\DL444\source\repos\OfficeDep\TestConsole\obj\Release\TestConsole.exe
+C:\Users\DL444\source\repos\OfficeDep\TestConsole\obj\Release\TestConsole.pdb
+C:\Users\DL444\source\repos\OfficeDep\TestConsole\bin\Release\zh-CN\OfficeDep.resources.dll

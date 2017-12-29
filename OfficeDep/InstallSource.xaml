@@ -1,0 +1,33 @@
+﻿<Page x:Name="SourcePage" x:Class="OfficeDep.InstallSource"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:OfficeDep"
+      xmlns:props="clr-namespace:OfficeDep.Properties"
+      mc:Ignorable="d" 
+      d:DesignHeight="440" d:DesignWidth="720"
+      Title="InstallSource" Loaded="SourcePage_Loaded">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="90"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Label Content="{x:Static props:Resources.InstallSourceHeader}" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="20,0,0,0" FontSize="24" Foreground="#FFEB3B00"/>
+        <Grid Grid.Row="1" Margin="25,20,0,0">
+            <StackPanel>
+                <RadioButton x:Name="OnlineBtn" Content="{x:Static props:Resources.OnlineBtn}" Checked="OnlineBtn_Checked" HorizontalAlignment="Left"/>
+                <Label Content="{x:Static props:Resources.OnlineDescription}"/>
+                <RadioButton x:Name="OfflineBtn" Content="{x:Static props:Resources.OfflineBtn}" Margin="0,20,0,0" Checked="OfflineBtn_Checked" HorizontalAlignment="Left"/>
+                <Label Content="{x:Static props:Resources.OfflineBtn}"/>
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                    <TextBox x:Name="PathBox" Height="23" TextWrapping="NoWrap" Width="500" Margin="5,0,0,0" TextChanged="PathBox_TextChanged" VerticalAlignment="Center"/>
+                    <Button x:Name="BrowseBtn" Content="{x:Static props:Resources.BrowseBtn}" Width="75" VerticalAlignment="Center" Margin="10,0,50,0" Click="BrowseBtn_Click"/>
+                </StackPanel>
+
+            </StackPanel>
+        </Grid>
+
+    </Grid>
+</Page>

@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ArchDescription" xml:space="preserve">
+    <value>Choose which architecture to install. For most people, 32-bit will be fine.
+However, if you plan to deal with a large amount of data, you might want to consider 64-bit.</value>
+  </data>
+  <data name="ArchHeader" xml:space="preserve">
+    <value>Architecture</value>
+  </data>
+  <data name="BackBtnText" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="BroadBtn" xml:space="preserve">
+    <value>Semi-annual</value>
+  </data>
+  <data name="BroadDescription" xml:space="preserve">
+    <value>Get feature updates every six months in January and July.</value>
+  </data>
+  <data name="BrowseBtn" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="CancelBtnText" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="ConfigOfficeDescription" xml:space="preserve">
+    <value>Which Office application do you want?</value>
+  </data>
+  <data name="ConfigOfficeHeader" xml:space="preserve">
+    <value>Configure Office</value>
+  </data>
+  <data name="CustomInstallBtn" xml:space="preserve">
+    <value>Custom</value>
+  </data>
+  <data name="CustomInstallDescription" xml:space="preserve">
+    <value>Choose components and languages to install or use an offline installation source.</value>
+  </data>
+  <data name="CustomLangBtn" xml:space="preserve">
+    <value>Choose my own</value>
+  </data>
+  <data name="CustomLangDescription" xml:space="preserve">
+    <value>Enter the locale code below, seperated with comma. 
+For example, to install English (United States) and Chinese (Simplified), enter "en-us, zh-cn".</value>
+  </data>
+  <data name="EditionSelectDescription" xml:space="preserve">
+    <value>Select Edition:</value>
+  </data>
+  <data name="ExportBtn" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="ExportDescription" xml:space="preserve">
+    <value>You can also export a copy of configuration file for later use.</value>
+  </data>
+  <data name="HelpLink" xml:space="preserve">
+    <value>Need help?</value>
+  </data>
+  <data name="HomeEdition" xml:space="preserve">
+    <value>Home or Personal</value>
+  </data>
+  <data name="InstallOptionHeader" xml:space="preserve">
+    <value>Install option</value>
+  </data>
+  <data name="InstallSourceHeader" xml:space="preserve">
+    <value>Installation source</value>
+  </data>
+  <data name="LanguageDescription" xml:space="preserve">
+    <value>Choose the languages you want to install UI Language Pack, Proofing Tools and Help Files for.</value>
+  </data>
+  <data name="LanguageHeader" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="LayoutBtn" xml:space="preserve">
+    <value>Just download</value>
+  </data>
+  <data name="LayoutDescription" xml:space="preserve">
+    <value>Download installation files for later use.</value>
+  </data>
+  <data name="MatchOSBtn" xml:space="preserve">
+    <value>Use my system language</value>
+  </data>
+  <data name="MatchOSDescription" xml:space="preserve">
+    <value>Use the language of your system.</value>
+  </data>
+  <data name="MonthlyBtn" xml:space="preserve">
+    <value>Monthly</value>
+  </data>
+  <data name="MonthlyDecription" xml:space="preserve">
+    <value>Get feature updates every one or two months.</value>
+  </data>
+  <data name="NextBtnText" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="OfflineBtn" xml:space="preserve">
+    <value>Use offline source</value>
+  </data>
+  <data name="OfflineDescription" xml:space="preserve">
+    <value>Use your own offline installation files.</value>
+  </data>
+  <data name="OnlineBtn" xml:space="preserve">
+    <value>Download online</value>
+  </data>
+  <data name="OnlineDescription" xml:space="preserve">
+    <value>Download the latest version from Microsoft.</value>
+  </data>
+  <data name="ProductPageHeader" xml:space="preserve">
+    <value>Select product</value>
+  </data>
+  <data name="ProjectCheckText" xml:space="preserve">
+    <value>Microsoft Project</value>
+  </data>
+  <data name="ProjectDescription" xml:space="preserve">
+    <value>Keep track of your team's plan and progress.</value>
+  </data>
+  <data name="ProPlusEdition" xml:space="preserve">
+    <value>Professional Plus</value>
+  </data>
+  <data name="QuickInstallBtn" xml:space="preserve">
+    <value>Quick install</value>
+  </data>
+  <data name="QuickInstallDescription" xml:space="preserve">
+    <value>Install all components with recommended settings.</value>
+  </data>
+  <data name="ReadyDescription_Install" xml:space="preserve">
+    <value>Office is now ready to be installed. Click Next to continue.</value>
+  </data>
+  <data name="ReadyDescription_Layout" xml:space="preserve">
+    <value>Office is now ready to be downloaded. Click Next to continue.</value>
+  </data>
+  <data name="ReadyHeader" xml:space="preserve">
+    <value>Ready to roll</value>
+  </data>
+  <data name="SKUDescriptionHome" xml:space="preserve">
+    <value>Perfect for home and personal users. Office 365 Home or Personal required.</value>
+  </data>
+  <data name="SKUDescriptionProPlus" xml:space="preserve">
+    <value>For enterprise users who demand professional functionalities.</value>
+  </data>
+  <data name="SuiteCheckText" xml:space="preserve">
+    <value>Microsoft Office Suite</value>
+  </data>
+  <data name="SuiteDescription" xml:space="preserve">
+    <value>Includes the Office apps you know and love.</value>
+  </data>
+  <data name="TargetedBtn" xml:space="preserve">
+    <value>Semi-annual (Fast)</value>
+  </data>
+  <data name="TargetedDescription" xml:space="preserve">
+    <value>Get feature updates every six months in September and March.</value>
+  </data>
+  <data name="UpdateDescription" xml:space="preserve">
+    <value>Choose how often you want to receive feature updates. 
+Security and quality updates will be released every month.</value>
+  </data>
+  <data name="UpdateHeader" xml:space="preserve">
+    <value>Update cycle</value>
+  </data>
+  <data name="VisioCheckText" xml:space="preserve">
+    <value>Microsoft Visio</value>
+  </data>
+  <data name="VisioDescription" xml:space="preserve">
+    <value>Simply create diagrams to illustrate your ideas.</value>
+  </data>
+  <data name="WindowTitle" xml:space="preserve">
+    <value>Office Deployment Tool</value>
+  </data>
+  <data name="x64BtnText" xml:space="preserve">
+    <value>64 Bit</value>
+  </data>
+  <data name="x86BtnText" xml:space="preserve">
+    <value>32 Bit</value>
+  </data>
+  <data name="x64NotSupportText" xml:space="preserve">
+    <value>This computer does not support 64-bit version of Office.</value>
+  </data>
+</root>

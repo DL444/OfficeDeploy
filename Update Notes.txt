@@ -1,0 +1,26 @@
+12/25/17
+v0.10
+- Initial Release
+
+12/26/17
+v0.2
+- Improved navigation logic
+- Streamlined configure workflow
+- Added export configuration function
+- Fix bugs
+- UI improvements
+
+12/26/17
+v1.0
+- Added Chinese (Simplified) support
+
+12/27/17
+v1.1
+- Added system architecture detection
+- Fix bugs
+- UI Improvements
+
+12/30/17
+v1.2
+- Fix bugs
+

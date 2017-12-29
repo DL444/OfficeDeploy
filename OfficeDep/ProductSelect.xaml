@@ -1,0 +1,35 @@
+﻿<Page x:Name="ProductPage" x:Class="OfficeDep.ProductSelect"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:OfficeDep"
+      xmlns:props="clr-namespace:OfficeDep.Properties"
+      mc:Ignorable="d" 
+      d:DesignHeight="440" d:DesignWidth="720"
+      Title="ProductSelect" Loaded="ProductPage_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="90"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Label Content="{x:Static props:Resources.ProductPageHeader}" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="20,0,0,0" FontSize="24" Foreground="#FFEB3B00"/>
+        <Grid Grid.Row="1" Margin="25,20,0,0">
+            <StackPanel>
+                <CheckBox x:Name="SuiteCheck" Content="{x:Static props:Resources.SuiteCheckText}" HorizontalAlignment="Left" VerticalAlignment="Top" Unchecked="SuiteCheck_Unchecked" Checked="SuiteCheck_Checked"/>
+                <Label Content="{x:Static props:Resources.SuiteDescription}"/>
+                <Label x:Name="EditionHeader" Content="{x:Static props:Resources.EditionSelectDescription}"/>
+                <ComboBox x:Name="SKUCombo" HorizontalAlignment="Left" MinWidth="150" Margin="5,0,0,0" SelectedIndex="-1" SelectionChanged="SKUCombo_SelectionChanged">
+                    <ComboBoxItem Content="{x:Static props:Resources.HomeEdition}"/>
+                    <ComboBoxItem Content="{x:Static props:Resources.ProPlusEdition}"/>
+                </ComboBox>
+                <Label x:Name="DesLabel" Content="{x:Static props:Resources.SKUDescriptionHome}"/>
+                <CheckBox x:Name="VisioCheck" Content="{x:Static props:Resources.VisioCheckText}" Margin="0,20,0,0" Checked="VisioCheck_Checked" Unchecked="VisioCheck_Unchecked" HorizontalAlignment="Left"/>
+                <Label Content="{x:Static props:Resources.VisioDescription}"/>
+                <CheckBox x:Name="ProjectCheck" Content="{x:Static props:Resources.ProjectCheckText}" Margin="0,20,0,0" Checked="ProjectCheck_Checked" Unchecked="ProjectCheck_Unchecked" HorizontalAlignment="Left"/>
+                <Label Content="{x:Static props:Resources.ProjectDescription}"/>
+            </StackPanel>
+        </Grid>
+
+    </Grid>
+</Page>

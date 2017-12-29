@@ -1,0 +1,31 @@
+﻿<Page x:Name="PathwayPage" x:Class="OfficeDep.InstallPathway"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:OfficeDep"
+      xmlns:props="clr-namespace:OfficeDep.Properties"
+      mc:Ignorable="d" 
+      d:DesignHeight="440" d:DesignWidth="720"
+      Title="InstallPathway" Loaded="PathwayPage_Loaded">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="90"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Label Content="{x:Static props:Resources.InstallOptionHeader}" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="20,0,0,0" FontSize="24" Foreground="#FFEB3B00"/>
+        <Grid Grid.Row="1" Margin="25,20,0,0">
+            <StackPanel>
+                <RadioButton x:Name="QuickBtn" Content="{x:Static props:Resources.QuickInstallBtn}" Checked="QuickBtn_Checked" HorizontalAlignment="Left"/>
+                <Label Content="{x:Static props:Resources.QuickInstallDescription}"/>
+                <RadioButton x:Name="CustomBtn" Content="{x:Static props:Resources.CustomInstallBtn}" Margin="0,20,0,0" Checked="CustomBtn_Checked" HorizontalAlignment="Left"/>
+                <Label Content="{x:Static props:Resources.CustomInstallDescription}"/>
+                <RadioButton x:Name="DownloadBtn" Content="{x:Static props:Resources.LayoutBtn}" Margin="0,20,0,0" Checked="DownloadBtn_Checked" HorizontalAlignment="Left"/>
+                <Label Content="{x:Static props:Resources.LayoutDescription}"/>
+
+            </StackPanel>
+        </Grid>
+
+    </Grid>
+</Page>

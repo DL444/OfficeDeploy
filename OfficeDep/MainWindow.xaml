@@ -1,0 +1,29 @@
+﻿<Window x:Class="OfficeDep.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OfficeDep"
+        xmlns:props="clr-namespace:OfficeDep.Properties"
+        mc:Ignorable="d"
+        Title="{x:Static props:Resources.WindowTitle}" Height="500" Width="720" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None">
+    <Grid Background="#FFEEEEEE">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="60"/>
+        </Grid.RowDefinitions>
+        <Frame x:Name="ContentFrame" Content="" NavigationUIVisibility="Hidden" Focusable="False"/>
+        <Grid Grid.Row="1" Background="#FFDDDDDD">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="CancelBtn" Content="{x:Static props:Resources.CancelBtnText}" HorizontalAlignment="Left" VerticalAlignment="Center" Width="75" Margin="20,0,0,0" Click="CancelBtn_Click"/>
+            <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
+                <Button x:Name="BackBtn" Content="{x:Static props:Resources.BackBtnText}" Width="75" HorizontalAlignment="Right" VerticalAlignment="Center" Click="BackBtn_Click" IsEnabled="False"/>
+                <Button x:Name="NextBtn" Content="{x:Static props:Resources.NextBtnText}" Width="75" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="10,0,20,0" Click="NextBtn_Click"/>
+            </StackPanel>
+        </Grid>
+
+    </Grid>
+</Window>
