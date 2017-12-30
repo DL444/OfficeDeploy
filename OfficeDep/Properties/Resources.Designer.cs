@@ -170,8 +170,7 @@ namespace OfficeDep.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Enter the locale code below, seperated with comma. 
-        ///For example, to install English (United States) and Chinese (Simplified), enter &quot;en-us, zh-cn&quot;..
+        ///   Looks up a localized string similar to Select all the languages to install below..
         /// </summary>
         public static string CustomLangDescription {
             get {

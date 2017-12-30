@@ -155,8 +155,7 @@ However, if you plan to deal with a large amount of data, you might want to cons
     <value>Choose my own</value>
   </data>
   <data name="CustomLangDescription" xml:space="preserve">
-    <value>Enter the locale code below, seperated with comma. 
-For example, to install English (United States) and Chinese (Simplified), enter "en-us, zh-cn".</value>
+    <value>Select all the languages to install below.</value>
   </data>
   <data name="EditionSelectDescription" xml:space="preserve">
     <value>Select Edition:</value>

@@ -26,12 +26,54 @@
                     <RadioButton x:Name="CustomLangBtn" Content="{x:Static props:Resources.CustomLangBtn}" Margin="0,20,0,0" Checked="CustomLangBtn_Checked" HorizontalAlignment="Left"/>
                     <TextBlock x:Name="LangHint" Margin="5,4,0,0" Text="{x:Static props:Resources.CustomLangDescription}">
                     </TextBlock>
-                    <TextBox x:Name="LangBox" Height="23" TextWrapping="Wrap" Margin="5,5,100,0" TextChanged="LangBox_TextChanged" VerticalAlignment="Center"/>
+                    <ListBox x:Name="LanguageBox" Height="100" SelectionMode="Multiple" ScrollViewer.CanContentScroll="True" Margin="5,5,400,0" SelectionChanged="LanguageBox_SelectionChanged">
+                        <ListBoxItem Content="العربية"></ListBoxItem> <!--Arabic-->
+                        <ListBoxItem Content="Български"></ListBoxItem><!--Bulgarian-->
+                        <ListBoxItem Content="中文(简体)"></ListBoxItem>
+                        <ListBoxItem Content="中文(繁體)"></ListBoxItem>
+                        <ListBoxItem Content="hrvatski"></ListBoxItem><!--Croatian-->
+                        <ListBoxItem Content="čeština"></ListBoxItem><!--Czech-->
+                        <ListBoxItem Content="dansk"></ListBoxItem><!--Danish-->
+                        <ListBoxItem Content="Nederlands"></ListBoxItem><!--Dutch-->
+                        <ListBoxItem Content="English"></ListBoxItem>
+                        <ListBoxItem Content="eesti"></ListBoxItem><!--Estinian-->
+                        <ListBoxItem Content="suomi"></ListBoxItem><!--Finnish-->
+                        <ListBoxItem Content="français"></ListBoxItem><!--French-->
+                        <ListBoxItem Content="Deutsch"></ListBoxItem><!--German-->
+                        <ListBoxItem Content="Ελληνικά"></ListBoxItem><!--Greek-->
+                        <ListBoxItem Content="עברית"></ListBoxItem><!--Hebrew-->
+                        <ListBoxItem Content="हिंदी"></ListBoxItem><!--Hindi-->
+                        <ListBoxItem Content="magyar"></ListBoxItem><!--Hungarian-->
+                        <ListBoxItem Content="Bahasa Indonesia"></ListBoxItem><!--Indonesian-->
+                        <ListBoxItem Content="italiano"></ListBoxItem><!--Italian-->
+                        <ListBoxItem Content="日本語‫"></ListBoxItem>
+                        <ListBoxItem Content="Қазақ"></ListBoxItem><!--Kazakh-->
+                        <ListBoxItem Content="한국어‫"></ListBoxItem><!--Korean-->
+                        <ListBoxItem Content="latviešu"></ListBoxItem><!--Lativian-->
+                        <ListBoxItem Content="lietuvių"></ListBoxItem><!--Lithuanian-->
+                        <ListBoxItem Content="Bahasa Melayu"></ListBoxItem><!--Malay-->
+                        <ListBoxItem Content="norsk (bokmål)"></ListBoxItem><!--Norwegian-->
+                        <ListBoxItem Content="Polski"></ListBoxItem><!--Polish-->
+                        <ListBoxItem Content="português (Brasil)"></ListBoxItem><!--Portuguese (Brazil)-->
+                        <ListBoxItem Content="português (Portugal)"></ListBoxItem><!--Portuguese (Portugal)-->
+                        <ListBoxItem Content="română"></ListBoxItem><!--Romania-->
+                        <ListBoxItem Content="Русский"></ListBoxItem><!--Russian-->
+                        <ListBoxItem Content="srpski"></ListBoxItem><!--Serbian (Latin)-->
+                        <ListBoxItem Content="slovenčina"></ListBoxItem><!--Slovak-->
+                        <ListBoxItem Content="slovenski"></ListBoxItem><!--Slovenian-->
+                        <ListBoxItem Content="Español"></ListBoxItem><!--Spanish-->
+                        <ListBoxItem Content="svenska"></ListBoxItem><!--Swedish-->
+                        <ListBoxItem Content="ไทย"></ListBoxItem><!--Thai-->
+                        <ListBoxItem Content="Türkçe"></ListBoxItem><!--Turkish-->
+                        <ListBoxItem Content="українська"></ListBoxItem><!--Ukarainian-->
+                        <ListBoxItem Content="Tiếng Việt"></ListBoxItem><!--Vietnam-->
+                    </ListBox>
+                    <!--<TextBox x:Name="LangBox" Height="23" TextWrapping="Wrap" Margin="5,5,100,0" TextChanged="LangBox_TextChanged" VerticalAlignment="Center"/>
                     <TextBlock x:Name="HelpLink" Margin="5,5,0,0">
                         <Hyperlink x:Name="HelpHLink" NavigateUri="https://technet.microsoft.com/EN-US/library/cc179219%28v=office.16%29.aspx" RequestNavigate="HelpHLink_RequestNavigate" >
                             <TextBlock Text="{x:Static props:Resources.HelpLink}"></TextBlock>
                         </Hyperlink>
-                    </TextBlock>
+                    </TextBlock>-->
                 </StackPanel>
             </Grid>
 

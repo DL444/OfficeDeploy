@@ -115,12 +115,25 @@ namespace OfficeDep
 
         Operation GenerateConfig(string path)
         {
-            List<string> langList = new List<string>();
-            string[] langs = Session.lang.Split(',');
-            foreach (string lang in langs)
+            List<string> GetLangs()
             {
-                langList.Add(lang.Trim());
+                List<string> list = new List<string>();
+                for(int i = 0; i < Session.langSelection.Length; i++)
+                {
+                    if(Session.langSelection[i] == true)
+                    {
+                        list.Add(Session.langList[i]);
+                    }
+                }
+                return list.Count == 0 ? new List<string>() { "MatchOS" } : list;
             }
+
+            List<string> langList = GetLangs();
+            //string[] langs = Session.lang.Split(',');
+            //foreach (string lang in langs)
+            //{
+            //    langList.Add(lang.Trim());
+            //}
             Config config = new Config(Session.installSource, (Session.arch == Session.Architect.x86 ? Config.Architecture.x86 : Config.Architecture.x64), (Config.Channel)Session.updChannel);
             if(Session.suiteEnabled)
             {

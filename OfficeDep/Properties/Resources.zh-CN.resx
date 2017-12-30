@@ -155,8 +155,7 @@
     <value>自定义</value>
   </data>
   <data name="CustomLangDescription" xml:space="preserve">
-    <value>在下方输入区域代码，以英文逗号隔开。
-例如，要安装 中文（简体） 和 英文（美国），请输入 "zh-cn, en-us".</value>
+    <value>请在下方选择要安装的所有语言。</value>
   </data>
   <data name="EditionSelectDescription" xml:space="preserve">
     <value>选择版本:</value>
